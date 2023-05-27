@@ -15,21 +15,24 @@ export default function useEmail() {
 
     setLoading(true);
 
-    await toast.promise(
-      emailjs.send(
-        "service_4r6qo2q",
-        "template_llwkka8",
-        payload,
-        "mLBnpdZwsG4s_cbSn"
-      ),
-      {
-        loading: "Sending message...",
-        success: <b>Message sent</b>,
-        error: <b>Error sending the message.</b>,
-      }
-    );
-
-    setLoading(false);
+    try {
+      await toast.promise(
+        emailjs.send(
+          process.env.NEXT_PUBLIC_SERVICE as string,
+          process.env.NEXT_PUBLIC_TEMPLATE as string,
+          payload,
+          process.env.NEXT_PUBLIC_KEY
+        ),
+        {
+          loading: "Sending message...",
+          success: <b>Message sent</b>,
+          error: <b>Error sending the message.</b>,
+        }
+      );
+      setLoading(false);
+    } catch (error) {
+      setLoading(false);
+    }
   };
 
   return {loading, sendEmail};
