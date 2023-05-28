@@ -72,7 +72,7 @@ export const ContentProject = styled.div`
         transition: all 0.5s;
         opacity: 0;
         bottom: -20px;
-        width: 100px;
+        width: 200px;
         text-align: center;
         font-weight: 500;
         color: ${(props: ThemeProps) => props.theme?.textColor};

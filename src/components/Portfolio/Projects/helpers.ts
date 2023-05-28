@@ -8,6 +8,8 @@ import Hfma from "@/assets/Projects/hfma.png";
 import Algoritmo from "@/assets/Projects/algoritmo.png";
 import Wetokie from "@/assets/Projects/wetokie.png";
 import ItpVoice from "@/assets/Projects/itpvoice.png";
+import Peronio from "@/assets/Projects/Peronio.png";
+import Munda from "@/assets/Projects/Munda.png";
 import {
   SiExpress,
   SiMongodb,
@@ -27,6 +29,7 @@ import {
   SiSocketdotio,
   SiDocker,
   SiMui,
+  SiStyledcomponents,
 } from "react-icons/si";
 export const projects: Project[] = [
   {
@@ -82,7 +85,7 @@ export const projects: Project[] = [
     description:
       "Cloud communications platform, capable of receiving and sending calls in a browser, messaging systems, and user management",
     overview: "https://itpvoice.net/",
-    duration: "2020/10 – 2021/10",
+    duration: "2020/10 – 2022/10",
     image: ItpVoice,
     skills: [
       {label: "CSS3", Icon: FaCss3, color: "#28A4D8"},
@@ -97,6 +100,25 @@ export const projects: Project[] = [
   },
 ];
 export const freelanceProjects: Project[] = [
+  {
+    name: "MUNDA - FRONTEND",
+    description:
+      "Saas Mobile application oriented to the courses about diferents topics.",
+    overview: "https://dev.munda.club/",
+    duration: "2022/03 – 2023/05",
+    image: Munda,
+
+    skills: [
+      {label: "TypeScript", Icon: SiTypescript, color: "#00abf0"},
+      {
+        label: "Styled Components",
+        Icon: SiStyledcomponents,
+        color: "#EBA070",
+      },
+      {label: "React Native", Icon: FaReact, color: "#00abf0"},
+      {label: "Redux Toolkit", Icon: SiReduxsaga, color: "#949494"},
+    ],
+  },
   {
     name: "SPROCKET - FRONTEND",
     description:
@@ -117,9 +139,22 @@ export const freelanceProjects: Project[] = [
     ],
   },
   {
+    name: "PERONIO - FRONTEND",
+    description:
+      "Landing page to connect blockchain wallet into your mobile aplication.",
+    overview: "https://cerulean-madeleine-dd721c.netlify.app/",
+    image: Peronio,
+    duration: "2022/08 – 2022/09",
+    skills: [
+      {label: "React", Icon: FaReact, color: "#00abf0"},
+      {label: "Tailwinds", Icon: SiTailwindcss, color: "#07B0CE"},
+      {label: "Web3", Icon: SiWeb3Dotjs, color: "#F16822"},
+    ],
+  },
+  {
     name: "DARLING WAIFU - FRONTEND",
     description: "Web application of NFT game on the Binance Smart Chain.",
-    overview: "https://duwan2112.github.io/Rock-Paper-Scissor/",
+    overview: "http://ww12.darlingwaifu.com/",
     image: Darling,
     duration: "2022/02 – 2022/08",
     skills: [
