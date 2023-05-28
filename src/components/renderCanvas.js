@@ -135,7 +135,7 @@ function debounce(func) {
   };
 }
 
-var ctx: any,
+var ctx,
   f,
   e = 0,
   pos = {},
