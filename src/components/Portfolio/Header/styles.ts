@@ -43,7 +43,7 @@ export const SectionS = styled.section`
       0%,
       10%,
       100% {
-        background-position: -80rem 0;
+        background-position: -100rem 0;
       }
       65%,
       85% {
