@@ -123,7 +123,8 @@ function render() {
 
 function resizeCanvas() {
   const bodyHeight = document.body.clientHeight;
-  ctx.canvas.width = window.innerWidth - 25;
+  const bodyWidth = document.body.clientWidth;
+  ctx.canvas.width = bodyWidth - 25;
   ctx.canvas.height = bodyHeight + 100;
 }
 

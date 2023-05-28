@@ -29,6 +29,8 @@ export const ProjectS = styled.div`
 
   @media ${devices.tablet} {
     width: 90%;
+    min-width: 90%;
+    margin: 1rem 0rem;
   }
 `;
 export const ContentProject = styled.div`
@@ -72,7 +74,7 @@ export const ContentProject = styled.div`
         transition: all 0.5s;
         opacity: 0;
         bottom: -20px;
-        width: 200px;
+        width: 150px;
         text-align: center;
         font-weight: 500;
         color: ${(props: ThemeProps) => props.theme?.textColor};
