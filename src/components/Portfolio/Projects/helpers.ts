@@ -141,7 +141,7 @@ export const freelanceProjects: Project[] = [
   {
     name: "PERONIO - FRONTEND",
     description:
-      "Landing page to connect blockchain wallet into your mobile aplication.",
+      "Landing page to connect blockchain wallet into your mobile application.",
     overview: "https://cerulean-madeleine-dd721c.netlify.app/",
     image: Peronio,
     duration: "2022/08 – 2022/09",
