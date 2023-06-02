@@ -30,6 +30,7 @@ import {
   SiDocker,
   SiMui,
   SiStyledcomponents,
+  SiCypress,
 } from "react-icons/si";
 export const projects: Project[] = [
   {
@@ -78,6 +79,7 @@ export const projects: Project[] = [
       {label: "Docker", Icon: SiDocker, color: "#2496ED"},
       {label: "Solidity", Icon: SiSolidity, color: "#363636"},
       {label: "Web3", Icon: SiWeb3Dotjs, color: "#F16822"},
+      {label: "Cypress", Icon: SiCypress, color: "#55C999"},
     ],
   },
   {
@@ -164,6 +166,7 @@ export const freelanceProjects: Project[] = [
       {label: "Tailwinds", Icon: SiTailwindcss, color: "#07B0CE"},
       {label: "Solidity", Icon: SiSolidity, color: "#363636"},
       {label: "Web3", Icon: SiWeb3Dotjs, color: "#F16822"},
+      {label: "Cypress", Icon: SiCypress, color: "#55C999"},
     ],
   },
   {

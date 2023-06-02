@@ -14,6 +14,9 @@ import {
   SiMysql,
   SiPostgresql,
   SiSolidity,
+  SiCypress,
+  SiChai,
+  SiMocha,
   SiWeb3Dotjs,
   SiGit,
   SiBitbucket,
@@ -51,6 +54,7 @@ export const knowledge = [
       {label: "Redux", Icon: SiRedux, color: "#7248B7"},
       {label: "Redux Saga", Icon: SiReduxsaga, color: "#949494"},
       {label: "Redux Toolkit", Icon: SiReduxsaga, color: "#949494"},
+      {label: "Web3", Icon: SiWeb3Dotjs, color: "#F16822"},
     ],
   },
   {
@@ -66,6 +70,10 @@ export const knowledge = [
       {label: "Socket.io", Icon: SiSocketdotio, color: "#F7F7F7"},
       {label: "Strapi", Icon: SiStrapi, color: "#2F2E8B"},
       {label: "Stripe", Icon: SiStripe, color: "#6058F7"},
+      {label: "Solidity", Icon: SiSolidity, color: "#363636"},
+      {label: "Cypress", Icon: SiCypress, color: "#55C999"},
+      {label: "Mocha", Icon: SiMocha, color: "#8D6748"},
+      {label: "Chai", Icon: SiChai, color: "#A30701"},
     ],
   },
   {
@@ -76,13 +84,6 @@ export const knowledge = [
       {label: "Bitbucket", Icon: SiBitbucket, color: "#0052CC"},
       {label: "Trello", Icon: SiTrello, color: "#0052CC"},
       {label: "Jira", Icon: SiJira, color: "#0052CC"},
-    ],
-  },
-  {
-    type: "Blockchain",
-    skills: [
-      {label: "Solidity", Icon: SiSolidity, color: "#363636"},
-      {label: "Web3", Icon: SiWeb3Dotjs, color: "#F16822"},
     ],
   },
 ];

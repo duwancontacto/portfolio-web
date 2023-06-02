@@ -38,7 +38,7 @@ export default function Projects() {
   return (
     <SectionS id="experiencie">
       <Header>
-        Enterprice <span>Projects</span>
+        Enterprise <span>Projects</span>
       </Header>
 
       <ContainerS>
